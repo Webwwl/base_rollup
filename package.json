@@ -1,0 +1,30 @@
+{
+  "name": "base_rollup",
+  "version": "1.0.0",
+  "description": "base_rollup setting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c build/rollup.config.js"
+  },
+  "keywords": [
+    "rollup"
+  ],
+  "author": "wwl",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-latest": "^6.24.1",
+    "rollup": "^1.17.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {
+    "sha256": "^0.2.0",
+    "the-answer": "^1.0.0"
+  }
+}
